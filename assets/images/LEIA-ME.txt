@@ -1,0 +1,8 @@
+Coloque aqui a logo da empresa com o nome exato: logo.png
+
+- Formato PNG, de preferência com fundo transparente.
+- Cerca de 512 px de largura.
+- Depois de adicionar o arquivo, pare o app e rode "flutter run" de novo
+  (um hot reload não carrega arquivos novos).
+
+Enquanto logo.png não existir, o app mostra o nome da empresa no lugar.

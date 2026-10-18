@@ -1,0 +1,47 @@
+name: pim_tintas
+description: Aplicativo PIM (UNIP) - simulador de cores de tinta para o site de tintas.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Comunicação com a API ASP.NET
+  http: ^1.2.2
+  http_parser: ^4.1.0
+
+  # Estado e sessão
+  provider: ^6.1.2
+  flutter_secure_storage: ^9.2.2
+
+  # Cache local (catálogo, carrinho e preferências rápidas)
+  shared_preferences: ^2.3.2
+
+  # Foto do ambiente e processamento da imagem
+  image_picker: ^1.1.2
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icone.png"
+  min_sdk_android: 23
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/icone_frente.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
